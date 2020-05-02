@@ -13,6 +13,8 @@
 		460C670D245CE75400A667B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460C670B245CE75400A667B4 /* Main.storyboard */; };
 		460C670F245CE75800A667B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460C670E245CE75800A667B4 /* Assets.xcassets */; };
 		460C6712245CE75800A667B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460C6710245CE75800A667B4 /* LaunchScreen.storyboard */; };
+		460C671A245CE79000A667B4 /* WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460C6719245CE79000A667B4 /* WordSearch.swift */; };
+		460C671C245D1D2F00A667B4 /* capitals.json in Resources */ = {isa = PBXBuildFile; fileRef = 460C671B245D1D2F00A667B4 /* capitals.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		460C670E245CE75800A667B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		460C6711245CE75800A667B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		460C6713245CE75800A667B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460C6719245CE79000A667B4 /* WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordSearch.swift; sourceTree = "<group>"; };
+		460C671B245D1D2F00A667B4 /* capitals.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = capitals.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				460C670E245CE75800A667B4 /* Assets.xcassets */,
 				460C6710245CE75800A667B4 /* LaunchScreen.storyboard */,
 				460C6713245CE75800A667B4 /* Info.plist */,
+				460C671B245D1D2F00A667B4 /* capitals.json */,
+				460C6719245CE79000A667B4 /* WordSearch.swift */,
 			);
 			path = SearchWord;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				460C6712245CE75800A667B4 /* LaunchScreen.storyboard in Resources */,
 				460C670F245CE75800A667B4 /* Assets.xcassets in Resources */,
+				460C671C245D1D2F00A667B4 /* capitals.json in Resources */,
 				460C670D245CE75400A667B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				460C670A245CE75400A667B4 /* ViewController.swift in Sources */,
+				460C671A245CE79000A667B4 /* WordSearch.swift in Sources */,
 				460C6706245CE75400A667B4 /* AppDelegate.swift in Sources */,
 				460C6708245CE75400A667B4 /* SceneDelegate.swift in Sources */,
 			);
